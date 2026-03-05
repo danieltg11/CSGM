@@ -102,7 +102,7 @@ form input{
     height: 50px;
     width: 50%;
     border: 2px rgba(37, 0, 0, 0) solid;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(255, 255, 255);
     padding: 1em;
     font-family: "Outfit", sans-serif;
     transition: ease 0.5s;
@@ -227,4 +227,5 @@ form div.incorreto input{
   .image-fader img:nth-of-type(4) {
     animation-delay: 0;
   }
+
 
