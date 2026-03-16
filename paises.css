@@ -1,20 +1,64 @@
 body{
     font-family: "Outfit", sans-serif;
+    margin: 0;
+
 
 }
 
-.titulo-do-pais{
+.titulo-do-país{
     font-family: "Outfit", sans-serif;
+    flex-direction: row;
+    font-size: x-large;
+    padding-left: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
-    font-size: x-large;
-    width: 100vw;
-    height: 30vh;
-    background-color: blue;
-
 }
 .nomeoficial{
     font-weight: 300;
+}
+.flag-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 15vw;
+    background-color: aqua;
+    overflow: hidden;
+    object-fit: cover;
+}
+.bandeira{
+    overflow: hidden;
+    object-fit: cover;
+}
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+
+
+}
+.texto{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.celula{
+    width: 85vw;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3.5vh;
+
+}
+.titulo-dos-textos{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 2vh;
 }
