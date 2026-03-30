@@ -9,7 +9,18 @@ const credenciais = {
   "China": { senha: "otuz8", pagina: "china.html" },
   "Checoslováquia": { senha: "fotq9", pagina: "checoslovaquia.html" },
   "Polônia": { senha: "baxm1", pagina: "polonia.html" },
-  "Romênia": { senha: "nigga1", pagina: "romenia.html" }
+  "Romênia": { senha: "sgyd2", pagina: "romenia.html" },
+  "Grécia": { senha: "gjaw3", pagina: "grecia.html" },
+  "Etiópia": { senha: "tfye4", pagina: "etiopia.html" },
+  "Hungria": { senha: "jfhb5", pagina: "hungria.html" },
+  "Iugoslávia": { senha: "pahs6", pagina: "iugoslavia.html" },
+  "Bulgária": { senha: "ndaf7", pagina: "bulgaria.html" },
+  "Bélgica": { senha: "sdff8", pagina: "belgica.html" },
+  "Canadá": { senha: "sged9", pagina: "canada.html" },
+  "Raj Britânico": { senha: "oqeq1", pagina: "raj.html" },
+
+
+
 };
 
 function b_login(){

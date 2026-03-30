@@ -23,7 +23,7 @@ body{
     align-items: center;
     height: 20vh;
     width: 15vw;
-    background-color: aqua;
+    background-color: rgba(0, 255, 255, 0);
     overflow: hidden;
     object-fit: cover;
 }
@@ -61,4 +61,92 @@ body{
 .titulo-dos-textos{
     background-color: rgb(255, 255, 255);
     margin-bottom: 2vh;
+}
+
+.accordion {
+  background-color: #a8a8a8;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+  position: relative;
+  font-family: "Outfit", sans-serif;
+}
+
+.accordion::after {
+  content: '\25BC';
+  font-size: 14px;
+  color: #444;
+  position: absolute;
+  right: 20px; 
+  transition: transform 0.3s ease;
+}
+
+.accordion.active::after {
+  transform: rotate(180deg);
+}
+
+.panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.panel p {
+  padding: 10px;
+}
+.nome-do-país{
+    padding: 0;
+}
+p{
+    text-align: justify
+}
+#accordionalianças{
+    background-color: rgb(139, 222, 247);
+}
+@media only screen and (max-width: 600px) {
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+
+
+    }
+    .flag-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        aspect-ratio: 16/9;
+        width: 60vw;
+        background-color: rgba(0, 255, 255, 0);
+        overflow: hidden;
+        object-fit: cover;
+    }
+    .titulo-do-país{
+        font-family: "Outfit", sans-serif;
+        flex-direction: column;
+        font-size: large;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0vh;
+        padding-top: 2vh;
+
+}
+    .titulo-do-país {
+        gap: 0.2rem;
+    }
+    .nome-do-país,
+    .nomeoficial {
+        margin: 0;
+    }
+    #italiaetiopia{
+        font-size: 14.5px;
+}
 }

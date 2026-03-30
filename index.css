@@ -24,6 +24,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Outfit", sans-serif;
+    height: 50px;
+    width: 100%;
+    border-color: transparent;
+    background-color:rgb(236, 236, 236) ;
+    padding-left: 10px;
 }
 .div-login-pais{
     display: flex;
