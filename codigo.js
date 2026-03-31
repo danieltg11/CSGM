@@ -18,6 +18,7 @@ const credenciais = {
   "Bélgica": { senha: "sdff8", pagina: "belgica.html" },
   "Canadá": { senha: "sged9", pagina: "canada.html" },
   "Raj Britânico": { senha: "oqeq1", pagina: "raj.html" },
+  "Finlândia": { senha: "uhfs2", pagina: "finns.html" },
 
 
 
